@@ -1,0 +1,13 @@
+.search-field {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 200px;
+  transition: width 0.4s ease-in-out;
+}
+
+.search-field:focus {
+  width: 300px;
+}
